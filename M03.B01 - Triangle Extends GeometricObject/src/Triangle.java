@@ -7,7 +7,6 @@ public class Triangle extends GeometricObject{
 
     //default constructor
     public Triangle(){
-
     }
 
     //specific triangle
@@ -50,9 +49,4 @@ public class Triangle extends GeometricObject{
     public String toString(){
         return "Triangle: side1 = " + side1 + " side2 = " + side2 + " side3 = " + side3;
     }
-
-//    @Override public int compareTo(Object o){
-//        Triangle triangle = (Triangle) o;
-//        return Double.compare(getArea(), triangle.getArea());
-//    }
 }
