@@ -36,7 +36,7 @@ public class Triangle extends GeometricObject{
         //use Heron's formula to find area, first find semiperimeter (sp)
         double sp = .5 * (getSide1() + getSide2() + getSide3());
         double area = Math.sqrt(sp * ((sp - getSide1())) * (sp - getSide2()) * (sp - getSide3()));
-        return area;
+        return area; 
     }
 
     //method getPerimeter() returns perimeter of triangle
