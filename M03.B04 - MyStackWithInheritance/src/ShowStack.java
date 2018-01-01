@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TestingMyStack extends ArrayList{
+public class ShowStack extends ArrayList{
 
     public static void main(String[] args){
 

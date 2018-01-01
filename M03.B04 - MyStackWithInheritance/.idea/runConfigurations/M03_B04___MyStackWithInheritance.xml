@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="M03.B04 - MyStackWithInheritance" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    <option name="MAIN_CLASS_NAME" value="TestingMyStack" />
+    <option name="MAIN_CLASS_NAME" value="ShowStack" />
     <option name="VM_PARAMETERS" />
     <option name="PROGRAM_PARAMETERS" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
