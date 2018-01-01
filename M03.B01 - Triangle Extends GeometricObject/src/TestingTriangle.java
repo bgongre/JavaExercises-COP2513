@@ -33,7 +33,5 @@ public class TestingTriangle {
         System.out.println("The perimeter of the triangle is: " + T1.getPerimeter());
         System.out.println("The color of the triangle is: " + T1.getColor());
         System.out.println("Is the triangle filled? " + T1.isFilled());
-
     }
-
 }

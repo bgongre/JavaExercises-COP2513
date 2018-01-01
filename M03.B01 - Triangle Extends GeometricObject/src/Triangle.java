@@ -7,7 +7,6 @@ public class Triangle extends GeometricObject{
 
     //default constructor
     public Triangle(){
-
     }
 
     //specific triangle
@@ -37,7 +36,7 @@ public class Triangle extends GeometricObject{
         //use Heron's formula to find area, first find semiperimeter (sp)
         double sp = .5 * (getSide1() + getSide2() + getSide3());
         double area = Math.sqrt(sp * ((sp - getSide1())) * (sp - getSide2()) * (sp - getSide3()));
-        return area;
+        return area; 
     }
 
     //method getPerimeter() returns perimeter of triangle
@@ -50,9 +49,4 @@ public class Triangle extends GeometricObject{
     public String toString(){
         return "Triangle: side1 = " + side1 + " side2 = " + side2 + " side3 = " + side3;
     }
-
-//    @Override public int compareTo(Object o){
-//        Triangle triangle = (Triangle) o;
-//        return Double.compare(getArea(), triangle.getArea());
-//    }
 }
