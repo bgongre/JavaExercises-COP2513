@@ -3,9 +3,9 @@ import java.util.GregorianCalendar;
 public class MyDate {
 
     //variables
-    int year;
-    int month;
-    int day;
+    private int year;
+    private int month;
+    private int day;
 
     //default object
     public MyDate(){

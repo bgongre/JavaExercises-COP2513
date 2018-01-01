@@ -1,12 +1,13 @@
 public class Faculty extends Employee {
 
     //variables
-    int officeHours;
-    String rank;
+    private int officeHours;
+    private String rank;
 
     //specific constructor
-    public Faculty(String name){
-        this.name = name;
+    public Faculty(String name, String address, String phoneNumber, String email, String office, double salary, MyDate dateCreated, String rank) {
+        super(name, address, phoneNumber, email, office, salary, dateCreated);
+        this.rank = rank;
     }
 
     public String toString(){
