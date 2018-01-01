@@ -51,7 +51,4 @@ public class GeometricObject{
     public String toString(){
         return "created on" + dateCreated + "\ncolor: " + color + " and filled: " + filled;
     }
-
-
 }
-
